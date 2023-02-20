@@ -1,0 +1,60 @@
+* {
+vertical-align: baseline;
+font-weight: inherit;
+font-family: inherit;
+font-style: inherit;
+font-size: 100%;
+border: 0 none;
+outline: 0;
+padding: 0;
+margin: 0;
+}
+/* this global reset was found in an article by Jeff Star, and can be found at
+https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/ */
+
+.webPage {
+    width: 350px;
+    height:450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* outline:solid 2px black; */
+    background-color: black;
+}
+
+.Header {
+    background-color: rgb(154, 124, 49);
+    color:rgb(106, 9, 9);
+    font-size:xx-large;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.Prompt {
+    padding-left: 20px;
+    color:rgb(63, 63, 214);
+}
+
+.input {
+    margin: 20px;
+}
+.qBox {
+    border: solid 1px black;
+}
+
+.Ask {
+    background-color: goldenrod;
+    font-weight: 300;
+    padding:3px;
+}
+
+.ZOLTAN {
+    width:300px;
+}
+
+.answer {
+    color:rgb(191, 191, 191);
+    font-weight: 600;
+}
